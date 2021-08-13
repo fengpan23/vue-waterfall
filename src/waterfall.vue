@@ -69,9 +69,9 @@ export default {
   },
   created () {
     this.virtualRects = []
-    this.$on('reflow', () => {
-      this.reflowHandler()
-    })
+    // this.$on('reflow', () => {
+    //   this.reflowHandler()
+    // })
     this.$watch(() => (
       this.align,
       this.line,
